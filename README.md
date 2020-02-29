@@ -1,43 +1,38 @@
 
-    ## Project Title
+    # Project Title
     Good READme Generator
 
-    Description
+    ## Description
     A tool designed to help you create a detailed and structured READme. It will allow people who are interested in your project to easily navigate through your project.
 
-    Table of Contents
-    - Installation
-    - Usage
-    - License
-    - Contributing
-    - Tests
-    - Questions
+    ## Table of Contents
+    - [Installation](##-Installation)
+    - [Usage] (## Usage)
+    - [License] (##-License)
+    - [Contributing] (##-Contributing)
+    - [Tests] (##-Tests)
+    - [Questions] (##-Questions)
         *  User GitHub profie picture
         *  User GitHub email
     
-    Installation
-    GitHub and Terminal
+    ## Installation
+    Will need to run npm install inquirer and npm install axios. Will also need to have an editor and terminal.
 
-    Usage
-    To create an informative READme.
+    ## Usage
+    To run will use node index.js and a detailed READme will be created through a series of prompts.
 
-    License
+    ## License
     MIT
 
-    Contributing
-    If you would like to contribute, feel free to create pull requests.
+    ## Contributing
+    Can create pull requests if you would like to contribute.
 
-    Badge
-    {
-        "schemaVersion": 1,
-        "label": "READme",
-        "message": "100%",
-        "color": "blue"
-      }
+    ## Badge
+    https://img.shields.io/badge/<README>-<100%>-<green>
 
-    Tests
-    Examples
+    ## Tests
+    
 
-    Questions
+    ## Questions
     
     
