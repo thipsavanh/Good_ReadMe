@@ -1,0 +1,27 @@
+{
+  "name": "good-readme",
+  "version": "1.0.0",
+  "description": "READme ",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thipsavanh/Good-ReadMe.git"
+  },
+  "keywords": [
+    "--save"
+  ],
+  "author": "Thip",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thipsavanh/Good-ReadMe/issues"
+  },
+  "homepage": "https://github.com/thipsavanh/Good-ReadMe#readme"
+}

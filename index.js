@@ -93,7 +93,12 @@ function generateReadme(answers) {
     ${answers.contributing}
 
     ## Badge
-    https://img.shields.io/badge/<README>-<100%>-<green>
+    {
+        "schemaVersion": 1,
+        "label": "READme",
+        "message": "100%",
+        "color": "blue"
+      }
 
     ## Tests
     ${answers.tests}
