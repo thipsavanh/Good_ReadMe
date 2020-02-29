@@ -31,11 +31,6 @@ function promptUser() {
     },
     {
         type: "input",
-        name: "contents",
-        message: "Enter your table of contents."
-    },
-    {
-        type: "input",
         name: "installation",
         message: "Installation?"
     },
@@ -76,13 +71,12 @@ function generateReadme(answers) {
     ${answers.description}
 
     ## Table of Contents
-    ${answers.contents}
-    * [Installation](## Installation)
-    * [Usage] (## Usage)
-    * [License] (## License)
-    * [Contributing] (## Contributing)
-    * [Tests] (## Tests)
-    * [Questions] (## Tests)
+    - [Installation](##-Installation)
+    - [Usage] (## Usage)
+    - [License] (##-License)
+    - [Contributing] (##-Contributing)
+    - [Tests] (##-Tests)
+    - [Questions] (##-Questions)
         *  User GitHub profie picture
         *  User GitHub email
     
