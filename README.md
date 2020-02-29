@@ -1,9 +1,9 @@
 
 # Project Title
-Good README Generator
+    Good README Generator
 
 ## Description
-A tool designed to help you create a detailed and structured READme. It will allow people who are interested in your project to easily navigate through your project.    
+    A tool designed to help create a detailed and structured README.    
 
 ## Table of Contents
 - [Installation](##-Installation)
@@ -16,20 +16,21 @@ A tool designed to help you create a detailed and structured READme. It will all
     *  User GitHub email
     
 ## Installation
-Will need to run npm install inquirer and npm install axios. Will also need to have an editor and terminal.
+    Will need to run inquirer and axios through npm install. Will also need an editor and terminal.
 
 ## Usage
-To run will use node index.js and a detailed READme will be created through a series of prompts.
+    Will need to run using <node index.js>.
 
 ## License
- MIT
+    MIT
 
 ## Contributing
- Can create pull requests if you would like to contribute.
+    Can create pull requests if you would like to contribute.
 
 ## Tests
     
 
 ## Questions
+    
     
     
