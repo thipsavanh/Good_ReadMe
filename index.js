@@ -64,41 +64,38 @@ function promptUser() {
 
 function generateReadme(answers) {
     return `
-    # Project Title
+# Project Title
     ${answers.title}
 
-    ## Description
-    ${answers.description}
+## Description
+    ${answers.description}    
 
-    ## Table of Contents
-    - [Installation](##-Installation)
-    - [Usage] (## Usage)
-    - [License] (##-License)
-    - [Contributing] (##-Contributing)
-    - [Tests] (##-Tests)
-    - [Questions] (##-Questions)
-        *  User GitHub profie picture
-        *  User GitHub email
+## Table of Contents
+- [Installation](##-Installation)
+- [Usage](##-Usage)
+- [License](##-License)
+- [Contributing](##-Contributing)
+- [Tests](##-Tests)
+- [Questions](##-Questions)
+    *  User GitHub profie picture
+    *  User GitHub email
     
-    ## Installation
+## Installation
     ${answers.installation}
 
-    ## Usage
+## Usage
     ${answers.usage}
 
-    ## License
+## License
     ${answers.license}
 
-    ## Contributing
+## Contributing
     ${answers.contributing}
 
-    ## Badge
-    https://img.shields.io/badge/<README>-<100%>-<green>
-
-    ## Tests
+## Tests
     ${answers.tests}
 
-    ## Questions
+## Questions
     ${answers.questions}
     `;
 }
