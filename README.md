@@ -29,7 +29,7 @@
 
 ## Tests
     
-![](https://github.com/thipsavanh/Good-ReadMe/blob/master/Screen%20Shot%20Gif.png?raw=true)    
+![](https://github.com/thipsavanh/Good-ReadMe/blob/master/Screen%20Shot%20of%20ReadME.png)    
 
 ## Questions
     
