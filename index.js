@@ -5,12 +5,8 @@ const axios = require("axios");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-const user = "username";
 const client_id = "Iv1.8c9191b1c1f457a1";
 const client_secret = "6d5b4e8d24f9e893fe61aff615df904770e72922";
-
-axios.get(`https://api.github.com/users/${user}?client_id=${client_id}&
-    client_secret=${client_secret}`);
 
 function promptUser() {
     return inquirer.prompt([
@@ -62,7 +58,7 @@ function promptUser() {
   ]);
 }
 
-function generateReadme(answers) {
+function generateReadme(answers, data) {
     return `
 # Project Title
     ${answers.title}
@@ -97,16 +93,19 @@ function generateReadme(answers) {
 
 ## Questions
     ${answers.questions}
-    
-    `;
+-![github user image])${data.avatar_url}
+-${data.email}
+    `
 }
 
 async function init() {
-  console.log("success")
   try {
     const answers = await promptUser();
 
-    const readMe = generateReadme(answers);
+    const response = await axios.get(`https://api.github.com/users/${answers.username}?client_id=${client_id}&
+    client_secret=${client_secret}&user-agent=${answers.username}`);
+
+    const readMe = await generateReadme(answers, response.data);
 
     await writeFileAsync("README.md", readMe)
 
