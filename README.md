@@ -33,7 +33,7 @@
 
 ## Questions
 
--![github user image])(https://avatars1.githubusercontent.com/u/57697592?v=4)
+![github user image])(https://avatars1.githubusercontent.com/u/57697592?v=4)
 -null
     
 
