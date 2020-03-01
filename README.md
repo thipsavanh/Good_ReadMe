@@ -29,9 +29,14 @@
 
 ## Tests
     
+![](https://github.com/thipsavanh/Good-ReadMe/blob/master/Screen%20Shot%20Gif.png?raw=true)    
 
 ## Questions
     
+<<<<<<< HEAD
 -![github user image])https://avatars1.githubusercontent.com/u/57697592?v=4
 -null
     
+=======
+    
+>>>>>>> 11fa41c567b1c809a30769fa040ecfd751052e72
