@@ -93,7 +93,7 @@ function generateReadme(answers, data) {
 
 ## Questions
     ${answers.questions}
--![github user image])${data.avatar_url}
+-![github user image])(${data.avatar_url})
 -${data.email}
     `
 }
@@ -102,10 +102,10 @@ async function init() {
   try {
     const answers = await promptUser();
 
-    const response = await axios.get(`https://api.github.com/users/${answers.username}?client_id=${client_id}&
+    const data = await axios.get(`https://api.github.com/users/${answers.username}?client_id=${client_id}&
     client_secret=${client_secret}&user-agent=${answers.username}`);
 
-    const readMe = await generateReadme(answers, response.data);
+    const readMe = await generateReadme(answers, data.data);
 
     await writeFileAsync("README.md", readMe)
 

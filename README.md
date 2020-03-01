@@ -3,7 +3,7 @@
     Good README Generator
 
 ## Description
-    A tool designed to help create a well structured and detailed README.    
+    A tool designed to help create a well structured README.    
 
 ## Table of Contents
 - [Installation](##-Installation)
@@ -16,10 +16,10 @@
     *  User GitHub email
     
 ## Installation
-    Need to run npm install inquirer and axios. 
+    Need to run npm install inquirer and axios.
 
 ## Usage
-    Initialize with 'node index.js' and a detailed README will be createad through a series of prompts.
+    Initialize with 'node index.js' and a detailed README will be created through a series of questions.
 
 ## License
     MIT
@@ -28,15 +28,10 @@
     If you would like to contribute, you can create a pull request.
 
 ## Tests
-    
-![](https://github.com/thipsavanh/Good-ReadMe/blob/master/Screen%20Shot%20Gif.png?raw=true)    
+![](./ReadME.gif)
 
 ## Questions
     
-<<<<<<< HEAD
--![github user image])https://avatars1.githubusercontent.com/u/57697592?v=4
+![github user image])(https://avatars1.githubusercontent.com/u/57697592?)v=4
 -null
     
-=======
-    
->>>>>>> 11fa41c567b1c809a30769fa040ecfd751052e72
