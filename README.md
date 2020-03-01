@@ -19,7 +19,7 @@
     Need to run npm install inquirer and axios. 
 
 ## Usage
-    Initialize with 'node index.js' and a detailed README will be createad through a series of prompts.
+    Initialize with `node index.js` and a detailed README will be createad through a series of prompts.
 
 ## License
     MIT
@@ -32,11 +32,8 @@
 ![](https://github.com/thipsavanh/Good-ReadMe/blob/master/Screen%20Shot%20of%20ReadME.png)    
 
 ## Questions
-    
-<<<<<<< HEAD
--![github user image])https://avatars1.githubusercontent.com/u/57697592?v=4
+
+-![github user image])(https://avatars1.githubusercontent.com/u/57697592?v=4)
 -null
     
-=======
-    
->>>>>>> 11fa41c567b1c809a30769fa040ecfd751052e72
+
