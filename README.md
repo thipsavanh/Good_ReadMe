@@ -28,7 +28,7 @@ MIT
 If you would like to contribute, you can create a pull request.
 
 ## Tests
-[](./ReadME.gif)
+![](./ReadME.gif)
 
 ## Questions
     
